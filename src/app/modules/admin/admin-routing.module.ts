@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdminModule } from './admin.module';
+import { TableComponent } from './components/table/table.component';
 
 const routes: Routes = [
-    {path:"admin",component:AdminModule}
+    {path:"table",component:TableComponent}
 ];
 
 @NgModule({

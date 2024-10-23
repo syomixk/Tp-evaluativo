@@ -1,3 +1,10 @@
 mat-toolbar{
     background-color: #ffefe5;
 }
+.example-spacer {
+    flex: 1 1 auto;
+  }
+a{
+    height: 100px;
+    width: 100px;
+}

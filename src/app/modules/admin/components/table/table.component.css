@@ -1,0 +1,9 @@
+.row{
+    justify-content: center;
+    display:flex
+}
+.col-lg-4{
+    justify-content: center;
+    display: flex;
+}
+
