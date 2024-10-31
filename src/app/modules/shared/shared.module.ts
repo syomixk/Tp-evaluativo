@@ -9,11 +9,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 
 import { AppRoutingModule } from 'src/app/app-routing.module';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
   declarations: [
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
