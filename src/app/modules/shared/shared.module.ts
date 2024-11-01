@@ -30,7 +30,8 @@ import { FooterComponent } from './components/footer/footer.component';
     MatIconModule,
     MatToolbarModule,
     NavbarComponent,
-    MatMenuModule
+    FooterComponent,
+    MatMenuModule,
   ]
 
 })
