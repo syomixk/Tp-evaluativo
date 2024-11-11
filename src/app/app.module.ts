@@ -9,11 +9,13 @@ import {AngularFireModule} from '@angular/fire/compat';
 import {AngularFireAuthModule} from '@angular/fire/compat/auth';
 import{AngularFireStorageModule} from '@angular/fire/compat/storage';
 import { environment } from 'src/environments/environment';
+import { PedidoComponent } from './modules/carrito/components/pedido/pedido.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PedidoComponent
   ],
   imports: [
     BrowserModule,

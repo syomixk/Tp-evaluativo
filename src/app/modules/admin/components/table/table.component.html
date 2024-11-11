@@ -14,6 +14,7 @@
         <th scope="col">Categoria</th>
         <th scope="col">Imagen</th>
         <th scope="col">Alt</th>
+        <th scope="col">stock</th>
 
       </tr>
     </thead>
@@ -118,6 +119,13 @@
                 <input class="form-control" type="text" formControlName="alt"
                     placeholder="Ej.: Medias de chanchito">
             </div>
+            <div class="mb-3">
+                <label class="form-label">stock</label>
+                <input type="number" class="form-control" formControlName="stock" placeholder="Ingrese el stock">
+            </div>
+</div>
+
+
         </div>
 
         <!-- ACCIONES DEL MODAL -->
@@ -192,6 +200,13 @@
                 <input class="form-control" type="text" formControlName="alt"
                     placeholder="{{productoEdit.alt}}">
             </div>
+
+            <div class="mb-3">
+                <label class="form-label">stock</label>
+                <input type="number" class="form-control" formControlName="stock" placeholder="{{productoEdit.stock}}">
+            </div>
+
+
         </div>
 
         <!-- ACCIONES DEL MODAL -->
